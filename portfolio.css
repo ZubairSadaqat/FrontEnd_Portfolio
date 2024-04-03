@@ -1,0 +1,76 @@
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    z-index: 1;
+    min-height: 100vh;
+    display: none;
+
+}
+
+
+.portfolio-container .heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+
+.portfolio-container .heading::after {
+    position: absolute;
+    content: "";
+    width: 8%;
+    height: 10%;
+    background-color:  var(--secondary-color);
+    left: 1px;
+    bottom: -10px;
+}
+
+.portfolio-container .heading::before {
+    position: absolute;
+    content: "";
+    width: 4%;
+    height: 10%;
+    background-color:  var(--secondary-color);
+    left: 1px;
+    bottom: -20px;
+}
+
+.portfolio-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.portfolio-wrap img{
+    width: 30%;
+    border-radius: 1rem;
+    filter: grayscale(0.3);
+    cursor: pointer;
+
+
+}
+
+.portfolio-wrap img:hover{
+    /* filter: grayscale(0.6); */
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-delay: 0.5s;
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+   }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.08);
+   }
+  }
+  

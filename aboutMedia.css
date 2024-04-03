@@ -1,0 +1,293 @@
+@media (max-width: 768px) {
+    .second-conatainer {
+        display: none; /* Hide this container on mobile */
+    }
+
+    .aboutMe {
+        width: 100%;
+        /* overflow: hidden; */
+        /* padding: 1rem;  */
+        /* Add padding for better spacing on mobile */
+    }
+
+    .aboutMe .heading {
+        font-size: 1.5rem; /* Increase font size slightly for better readability */
+        margin-top: 1.5rem;
+    }
+
+    .aboutMe .heading::before,
+    .aboutMe .heading::after {
+        border-bottom-width: 0.1rem; /* Reduce border width for better fit */
+    }
+
+    .aboutMe .title {
+        font-size: 1.2rem; /* Increase font size slightly for better readability */
+        margin-top: 2rem;
+    }
+
+    .aboutMe .title span {
+        font-size: 1.2rem; /* Match the font size of the title for consistency */
+    }
+
+    .aboutMe .paragraph {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        line-height: 1.2rem; /* Adjust line height for better readability */
+        margin-top: 1rem;
+    }
+
+    .aboutMe .details {
+        flex-direction: column; /* Stack details vertically on mobile */
+    }
+
+    .aboutMe .details .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; /* Adjust gap for better spacing on mobile */
+    }
+
+    .aboutMe .details .left-side h2 {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+    }
+
+    .aboutMe .details .left-side h2::after {
+        width: 30px; /* Adjust width for better fit */
+    }
+
+    .aboutMe .details .left-side button {
+        padding: 5px 30px; /* Adjust padding for better fit */
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        display: block; /* Ensure the button is visible on mobile */
+    }
+
+    .aboutMe .details .right-side {
+        width: 100%; /* Adjust width for better fit */
+        display: none; /* Hide this section on mobile */
+    }
+
+    .aboutMe .details .skill-bar {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        padding-left: 0.5rem; /* Adjust padding for better spacing on mobile */
+        padding-right: 1rem;
+    }
+
+    .aboutMe .details .progress_bar {
+        margin-left: 0; /* Adjust margin for better fit */
+    }
+
+    .aside-2 {
+        display: none; /* Hide this section on mobile */
+    }
+
+    .main-content2 .headings {
+        display: none; /* Hide this section on mobile */
+    }
+
+    .main-content2 .content-blocks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .main-content2 .for-education,
+    .main-content2 .for-experience {
+        margin: 0;
+        width: 100%; /* Adjust width for better fit */
+        height: auto; /* Adjust height for better fit */
+    }
+
+    .main-content2 .for-experience {
+        margin-top: 3rem;
+    }
+
+    .education-details h3,
+    .experience-details h3 {
+        margin-top: 0;
+        font-size: 10px; /* Adjust font size for better readability */
+        font-weight: 400; /* Adjust font weight for better readability */
+    }
+
+    .education-details h2,
+    .experience-details h2 {
+        font-size: 14px; /* Adjust font size for better readability */
+        font-weight: 400; /* Adjust font weight for better readability */
+    }
+
+    .education-details p,
+    .experience-details p {
+        font-size: 12px; /* Adjust font size for better readability */
+    }
+
+    .education-details h3::before,
+    .experience-details h3::before {
+        width: 1rem;
+        height: 1rem;
+        background-color: var(--primary-color);
+        position: absolute;
+        left: -37px;
+        top: 10px;
+        border-radius: 50%;
+    }
+
+    .main-content2 .scroll .line {
+        /* Adjustments can be made here based on your design needs */
+    }
+
+    .hamburger-container {
+        position: fixed;
+        top: 2.5rem;
+        right: 1rem;
+        display: block; /* Ensure the hamburger menu is visible on mobile */
+    }
+    .aboutMe .details .left-side .hireme{
+        margin: 0%;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .second-conatainer {
+        display: none; /* Hide this container on mobile */
+    }
+
+    .aboutMe {
+        width: 100%;
+        /* overflow: hidden; */
+        /* padding: 1rem;  */
+        /* Add padding for better spacing on mobile */
+    }
+
+    .aboutMe .heading {
+        font-size: 1.5rem; /* Increase font size slightly for better readability */
+        margin-top: 1.5rem;
+    }
+
+    .aboutMe .heading::before,
+    .aboutMe .heading::after {
+        border-bottom-width: 0.1rem; /* Reduce border width for better fit */
+    }
+
+    .aboutMe .title {
+        font-size: 1.2rem; /* Increase font size slightly for better readability */
+        margin-top: 2rem;
+    }
+
+    .aboutMe .title span {
+        font-size: 1.2rem; /* Match the font size of the title for consistency */
+    }
+
+    .aboutMe .paragraph {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        line-height: 1.2rem; /* Adjust line height for better readability */
+        margin-top: 1rem;
+    }
+
+    .aboutMe .details {
+        flex-direction: column; /* Stack details vertically on mobile */
+    }
+
+    .aboutMe .details .left-side {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; /* Adjust gap for better spacing on mobile */
+    }
+
+    .aboutMe .details .left-side h2 {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+    }
+
+    .aboutMe .details .left-side h2::after {
+        width: 30px; /* Adjust width for better fit */
+    }
+
+    .aboutMe .details .left-side button {
+        padding: 5px 30px; /* Adjust padding for better fit */
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        display: block; /* Ensure the button is visible on mobile */
+    }
+
+    .aboutMe .details .right-side {
+        width: 100%; /* Adjust width for better fit */
+        display: none; /* Hide this section on mobile */
+    }
+
+    .aboutMe .details .skill-bar {
+        font-size: 0.8rem; /* Adjust font size for better readability */
+        padding-left: 0.5rem; /* Adjust padding for better spacing on mobile */
+        padding-right: 1rem;
+    }
+
+    .aboutMe .details .progress_bar {
+        margin-left: 0; /* Adjust margin for better fit */
+    }
+
+    .aside-2 {
+        display: none; /* Hide this section on mobile */
+    }
+
+    .main-content2 .headings {
+        display: none; /* Hide this section on mobile */
+    }
+
+    .main-content2 .content-blocks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .main-content2 .for-education,
+    .main-content2 .for-experience {
+        margin: 0;
+        width: 100%; /* Adjust width for better fit */
+        height: auto; /* Adjust height for better fit */
+    }
+
+    .main-content2 .for-experience {
+        margin-top: 3rem;
+    }
+
+    .education-details h3,
+    .experience-details h3 {
+        margin-top: 0;
+        font-size: 10px; /* Adjust font size for better readability */
+        font-weight: 400; /* Adjust font weight for better readability */
+    }
+
+    .education-details h2,
+    .experience-details h2 {
+        font-size: 14px; /* Adjust font size for better readability */
+        font-weight: 400; /* Adjust font weight for better readability */
+    }
+
+    .education-details p,
+    .experience-details p {
+        font-size: 12px; /* Adjust font size for better readability */
+    }
+
+    .education-details h3::before,
+    .experience-details h3::before {
+        width: 1rem;
+        height: 1rem;
+        background-color: var(--primary-color);
+        position: absolute;
+        left: -37px;
+        top: 10px;
+        border-radius: 50%;
+    }
+
+    .main-content2 .scroll .line {
+        /* Adjustments can be made here based on your design needs */
+    }
+
+    .hamburger-container {
+        position: fixed;
+        top: 2.5rem;
+        right: 1rem;
+        display: block; /* Ensure the hamburger menu is visible on mobile */
+    }
+    .aboutMe .details .left-side .hireme{
+        margin: 0%;
+        margin-top: 2rem;
+    }
+}

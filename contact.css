@@ -1,0 +1,87 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    z-index: 1;
+    min-height: 100vh;
+    display: none;
+}
+
+
+.contact-container .heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+
+.contact-container .heading::after {
+    position: absolute;
+    content: "";
+    width: 8%;
+    height: 10%;
+    background-color: var(--secondary-color);
+    left: 1px;
+    bottom: -10px;
+}
+
+.contact-container .heading::before {
+    position: absolute;
+    content: "";
+    width: 4%;
+    height: 10%;
+    background-color:  var(--secondary-color);
+    left: 1px;
+    bottom: -20px;
+}
+
+
+
+.contact-container .contact-wrap{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.contact-container .contact-wrap h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color:  var(--secondary-color);
+    margin-bottom: 1.8rem;
+    
+}
+.contact-container .contact-wrap p{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.contact-container .option-wrap{
+    display: flex;
+    /* width: ; */
+    gap: 2rem;
+    flex-wrap: wrap;
+    min-width: 80%;
+    justify-content: space-between;
+    /* border: 1px solid goldenrod; */
+    margin-bottom: 10vh;
+}
+
+.call, .location, .mail, .web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem;
+    margin-top: 3rem;
+
+}
+
+.call i, .location i, .mail i, .web i {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}

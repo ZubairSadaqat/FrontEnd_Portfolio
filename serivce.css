@@ -1,0 +1,73 @@
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    z-index: 1;
+    display:  none;
+    min-height: 120vh;
+}
+.service-container .heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.serivice-wrap h1{
+    color: var(--text-color);
+    
+}
+
+.serivice-wrap p{
+    color: var(--paragraph-color);
+}
+
+.service-container .heading::after {
+    position: absolute;
+    content: "";
+    width: 8%;
+    height: 10%;
+    background-color: var(--secondary-color);
+    left: 1px;
+    bottom: -10px;
+}
+
+.service-container .heading::before {
+    position: absolute;
+    content: "";
+    width: 4%;
+    height: 10%;
+    background-color:var(--secondary-color);
+    left: 1px;
+    bottom: -20px;
+}
+
+.service-container  .serivice-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.service-container .service{
+    width: 25%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:var(--light-background-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    /* margin-top: 4rem; */
+}
+.service-container  .service i{
+font-size: 3rem;
+color: var(--secondary-color);
+}
+
+
+
